@@ -1,2 +1,1 @@
-This is for BASH exercise
-I am testing if it's working or not
+This is for the BASH exercise with Answers
