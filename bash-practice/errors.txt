@@ -1,3 +1,0 @@
-2026-09-01 ERROR Disk full
-2026-09-02 ERROR Connection lost
-2026-09-02 WARN High memory
