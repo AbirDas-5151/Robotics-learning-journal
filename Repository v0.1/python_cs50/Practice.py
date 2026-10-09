@@ -72,7 +72,46 @@ def square(n):
     return (n ** 2)
 
 print(square(5))
-"""
+
 #F15 — Refactor: Turn this repeated code into a function:
-def cat():
-    
+def meow():
+    for i in range(3):
+        print("Meow")
+
+meow()
+
+#F16 — Name cleanup: Ask for a name that may have extra spaces, such as "   grace hopper   ", and print it neatly as Grace Hopper.
+name = input("What is your name: ").strip().title()
+print (name)
+
+#F17 — Division: Ask for two numbers and print the result of dividing the first by the second. Use floats.
+x = float(input("what is your 1st number: "))
+y = float(input("What is your 2nd number: "))
+division = (x / y)
+print(division)
+
+#F18 — Rounding: Ask for a bill total and number of people. Print each person’s share rounded to two decimal places.
+
+total_bill = float(input("What is the total amount? "))
+people = float(input("Total number of people? "))
+
+total = total_bill / people
+
+print(f"{total:.2f}")
+
+#F19 — Debugging: Fix this:
+def main():
+    name = input("Name: ")
+    hello(name)
+
+def hello(to):
+    print(f"hello, {to}")
+
+main()
+"""
+#Hard
+#F21 — Calculator function: Write calculate(x, y) that returns and prints:
+# - sum
+# - difference
+# - product
+# - quotient
